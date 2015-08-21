@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>KANINI AGHARATHI</title>
+<link rel="stylesheet"  href="css/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/jqm-demos.css">
+<style>
+		#homeBanner {
+			width: 100%;
+		}
+		.center {
+			text-align: center;
+			margin-left: auto;
+			margin-right:auto;
+		}
+</style>
+	
+<link rel="stylesheet" href="css/leaflet.css" />
+<link rel="stylesheet" href="themes/test.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+</head>	
+<body>
+
+
+<div id="homeScreen" data-role="page">
+<img src="imgs/banner.png" width="100%">
+<div data-role="header"> 
+<h1>கணினி <br />அகராதி</h1>
+
+<a href="#aboutme" data-icon="bars" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-btn-right ui-nodisc-icon ui-alt-icon">about me</a>
+</div>
+	
+<div data-role="panel" id="aboutme" data-position="right" data-display="push">
+<ul data-role="listview"><li data-icon="delete" data-rel="close" data-theme="a"><a href="#">             கணினி அகராதி 2.0 </a></li>
+<h4>&nbsp;&nbsp; பங்களிப்பாளர்கள்</h4>
+<p>&nbsp;அல்மா தோட்டத் தமிழ்ப்பள்ளி &nbsp;ஆசிரியர்கள் மற்றும் &nbsp;மாணவர்கள்</p>
+<p>&nbsp;</p>
+<ol>
+<li>புஸ்பநாதன் சுப்ரமணியம் PUSPANATHAN SUBRAMANIAM</li><br/>
+<li>நிர்மலா பாலகிருஷ்ணன் NIRMALA BALAKRISHNAN</li><br/>
+<li>சுகந்தி சுடலை முத்து S.SUGANTHI SUDALLY MUTHU</li><br/> 
+<li>நவேஷ் சரவணன் <br />NAVESH SARAVANAN</li><br/>
+<li>சர்வேஸ்வரன் மதிவாணன் <br />SHARVESWARAN MATHYVANAN</li><br/>
+<li>நளினி பார்தீபன்  <br />NALLINI PARTHIBEN</li><br/>
+<li> நிரோஷா செல்லதுரை<br />NIROSHA SELLATHURAI</li><br/>
+</ol>
+<h4>&nbsp;&nbsp; நன்றி நவில்கிறோம் <br/>&nbsp;&nbsp; SPECIAL THANKS TO</h4>
+<h4>&nbsp;&nbsp; திரு.புகழேந்திரன் சண்முகம் <br/>&nbsp;&nbsp; POOGELENTHIRAN<br/>&nbsp;&nbsp;&nbsp;SHUNMUGAM <br /> &nbsp;&nbsp;&nbsp; உத்தமம்(பினாங்கு மாநில &nbsp;&nbsp;&nbsp;நிகராளி) </h4>
+<h4>&nbsp;&nbsp; திருமதி.காந்திமதி &nbsp;&nbsp;&nbsp;இராகவன் <br/>&nbsp;&nbsp; GANDHIMATHY M.V.RAGHAVAN<br/> &nbsp;&nbsp; அல்மா தோட்டத் &nbsp;&nbsp; <br /> &nbsp;&nbsp;&nbsp;தமிழ்ப்பள்ளி </h4>
+</ul>
+</div>
+	
+<div data-role="content">
+<!-- content -->
+<ul data-role="listview"  data-filter="true" data-inset="true" class="ui-nodisc-icon ui-alt-icon" data-filter-placeholder="Search">
+	
+<li>
+<h2><img src="imgs/alphabets.png" width="80%" ><br />Alphabets-		எழுத்துரு</h2>
+</li>
+<li>
+<h2><img src="imgs/ALPHANUMERIC.png" width="80%"><br />Alphanumeric-	எண்ணெழுத்து</h2>
+</li>
+		
+<li><h2><img src="imgs/alternating current.png" width="80%"><br />Alternating Current-	<br />மாறுதிசை மின்னோட்டம்</h2>
+</li>
+<li><h2><img src="imgs/analysis-data.jpg"width="80%"><br />Analyse-		ஆய்தல்</h2>
+</li>
+<li><h2><img src="imgs/animation.jpg"width="80%"><br />Animation-		அசைவூட்டம்</h2>
+</li>
+<li><h2><img src="imgs/antivirus-software.jpg"width="80%"><br />Anti virus Software-	நச்சு நிரல் <br/>எதிர் மென்பொருள்		</h2>
+</li>
+<li><h2><img src="imgs/attachment.jpg"width="80%"><br />Attachment-		இணைப்பு</h2>
+</li>
+<li><h2><img src="imgs/audio.jpg"width="80%"><br />Audio-		கேட்பொலி</h2>
+</li>
+<li><h2><img src="imgs/bankaccount.jpg"width="80%"><br />Bank account-		வங்கிக் கணக்கு</h2>
+</li>
+<li><h2><img src="imgs/binary code.jpg"width="80%"><br />Binary Code-		இருமக் குறிமுறை</h2>
+</li>
+<li><h2><img src="imgs/Bit.jpg"width="80%"><br />Bit-			இரும இலக்கம்</h2>
+</li>
+<li><h2><img src="imgs/blog.jpg"width="80%"><br />Blog-			வலைப்பதிவு</h2>
+</li>
+<li><h2><img src="imgs/brush.jpg"width="80%"><br />Brush-			தூரிகை</h2>
+</li>
+<li><h2><img src="imgs/byte.png"width="80%"><br />Byte-			எட்டியல் இலக்கம்</h2>
+</li>
+<li><h2><img src="imgs/cable 2.png"width="80%"><br />Cable-			பிணைய வடம்</h2>
+</li>
+<li><h2><img src="imgs/capacity.jpg"width="80%"><br />Capacity-		கொள்திறன்</h2>
+</li>						
+<li><h2><img src="imgs/cctv.png"width="80%"><br />Closed-circuit television (CCTV)-<br />இணைக்கப் பட்ட இரகசியக்<br /> கேமராக்கள்</h2>
+</li>
+<li><h2><img src="imgs/COLUMN.png"width="80%"><br />Column-		நெடுகை</h2>
+</li>
+<li><h2><img src="imgs/compact disk.jpg"width="80%"><br />Compact disk-		குறுவட்டு</h2>
+</li>		
+<li><h2><img src="imgs/compose.jpg"width="80%"><br />Compose-		உருவாக்கு</h2>
+</li>
+<li><h2><img src="imgs/computer security risk.jpg"width="80%"><br />Computer Security risk-<br />கணினியின் பாதுகாப்பு இடர்</h2>
+</li>
+<li><h2><img src="imgs/cut-icon.jpg"width="80%"><br />Cut-			வெட்டு</h2>
+</li>
+<li><h2><img src="imgs/DATA BANK.jpg"width="80%"><br />Data bank-		தரவுத்தள வங்கி</h2>
+</li>
+<li><h2><img src="imgs/data.jpg"width="80%"><br />Data-			தரவு</h2>
+</li>
+<li><h2><img src="imgs/DATABASE MANAGEMENT SYSTEM (DBMS).png"width="80%"><br />Database Management System <br />(DBMS)- தரவுத்தள <br /> மேலாண்மை முறைமை</h2>
+</li>
+<li><h2><img src="imgs/DATABASE MANAGEMENT.jpg"width="80%"><br />Database Management-தரவுத்தள <br /> மேலாண்மை </h2>
+</li>
+<li><h2><img src="imgs/delete.jpg"width="80%"><br />Delete-			அழி</h2>
+</li>
+<li><h2><img src="imgs/design.jpg"width="80%"><br />Design-		வடிவமைத்தல்</h2>
+</li>
+<li><h2><img src="imgs/develop.jpg"width="80%"><br />Develop-		மேம்படுத்துதல்</h2>
+</li>
+<li><h2><img src="imgs/digital camera.jpg"width="80%"><br />Digital Camera-	<br />இலத்திர ஒளிப்படக் கருவி</h2>
+</li>
+<li><h2><img src="imgs/DVD_disc.jpg" width="80%"><br />Digital Video Disc-	இறுவட்டு</h2>
+</li>
+<li><h2><img src="imgs/direct current.png"width="80%"><br />Direct Current-	நேர் மின்னோட்டம்</h2>
+</li>
+<li><h2><img src="imgs/DOCUMENT.png"width="80%"><br />Document-		ஆவணம்</h2>
+</li>
+<li><h2><img src="imgs/dvd drive.jpg"width="80%"><br />DVD Drive-		இறுவட்டு இயக்கி</h2>
+</li>
+<li><h2><img src="imgs/banner_ecommerce.png"width="80%"><br />E-Commerce-		மின்வணிகம்</h2>
+</li>
+<li><h2><img src="imgs/edit.png"width="80%"><br />Edit-			சீர் செய்</h2>
+</li>
+<li><h2><img src="imgs/Evaluate.jpg"width="80%"><br />Evaluate-		மதிப்பீடு செய்தல்</h2>
+</li>
+<li><h2><img src="imgs/fileexport.png"width="80%"><br />Export-		சேமித்தல்</h2>
+</li>
+<li><h2><img src="imgs/FIELD.gif"width="80%"><br />Field-			களம்</h2>
+</li>		
+<li><h2><img src="imgs/FILE.png"width="80%"><br />File-			கோப்பு</h2>
+</li>
+<li><h2><img src="imgs/floppy disk.jpg"width="80%"><br />Floppy Disc-		நெகிழ்வட்டு</h2>
+</li>
+<li><h2><img src="imgs/FOLDER.jpg"width="80%"><br />Folder-			கோப்புறை</h2>
+</li>
+<li><h2><img src="imgs/Hard-Disk1.jpg"width="80%"><br />Hard Disc-		வன்தட்டு</h2>
+</li>
+<li><h2><img src="imgs/hardware.png"width="80%"><br />Hardware-		வன்பொருள்</h2>
+</li>		
+<li><h2><img src="imgs/HIGHLIGHT.jpg"width="80%"><br />Highlight-		முனைப்புறுத்த</h2>
+</li>		
+<li><h2><img src="imgs/hub.jpg"width="80%"><br />Hub-			பிணையக் குவியம்</h2>
+</li>
+<li><h2><img src="imgs/hyperlink-1.jpg"width="80%"><br />Hyperlink-			பிணைப்புத்தொடர்</h2>
+</li>
+<li><h2><img src="imgs/image.jpg"width="80%"><br />Image-			படிமம்</h2>
+</li>
+<li><h2><img src="imgs/implement-1.jpg"width="80%"><br />Implement-		செயல்படுத்துதல்</h2>
+</li>	
+<li><h2><img src="imgs/INDEXING.jpg"width="80%"><br />Indexing-		வரிசையாக்கம்</h2>
+</li>	
+<li><h2><img src="imgs/information_cycle.gif"width="80%"><br />Informations-		தகவல்கள்</h2>
+</li>	
+<li><h2><img src="imgs/Manual-Input-Devices.gif"width="80%"><br />Input Device-		உள்ளீட்டுக் கருவி</h2>
+</li>	
+<li><h2><img src="imgs/input.jpg"width="80%"><br />Input-			உள்ளீடு</h2>
+</li>	
+<li><h2><img src="imgs/Interactive.jpg"width="80%"><br />Interactive-		ஊடாடுதல்</h2>
+</li>	
+<li><h2><img src="imgs/joystick.jpg"width="80%"><br />Joystick-		இயக்கப்பிடி</h2>
+</li>	
+<li><h2><img src="imgs/keyboard_black.jpg"width="80%"><br />Key board-		தட்டச்சுப்பலகை</h2>
+</li>	
+<li><h2><img src="imgs/laser.jpg"width="80%"><br />Laser-			ஒருங்கொளி</h2>
+</li>	
+<li><h2><img src="imgs/last name.png"width="80%"><br />Last name-		இறுதிப் பெயர்</h2>
+</li>	
+<li><h2><img src="imgs/layers.gif"width="80%"><br />Layers-		அடுக்குகள்</h2>
+</li>	
+<li><h2><img src="imgs/linear multimedia.jpg"width="80%"><br />Linear Multimedia-	<br />நேரோட்டப் பல்லூடகம்</h2>
+</li>	
+<li><h2><img src="imgs/lcd projector.jpg"width="80%"><br />LCD Projector-	<br />நீர்மப் படிம உருகாட்டி</h2>
+</li>	
+<li><h2><img src="imgs/mainframe_modern_300.jpg"width="80%"><br />Main frame-		முதன்மைக் கணினி</h2>
+</li>	
+<li><h2><img src="imgs/media.jpg"width="80%"><br />Media-			ஊடகம்</h2>
+</li>	
+<li><h2><img src="imgs/memory card.jpg"width="80%"><br />Memory card-		நினைவக அட்டை</h2>
+</li>	
+<li><h2><img src="imgs/SD MEMORY CARD.jpg"width="80%"><br />SD Memory card-		<br />SD நினைவக அட்டை</h2>
+</li>	
+<li><h2><img src="imgs/MENU OPTION.jpg"width="80%"><br />Menu option-		தெரிவுப் பட்டை</h2>
+</li>	
+<li><h2><img src="imgs/microcomputers-types-source.jpg"width="80%"><br />Micro Computer-	சிறுரகக் கணினி</h2>
+</li>	
+<li><h2><img src="imgs/MICROPHONE.png"width="80%"><br />Microphone-		ஒலி வாங்கி</h2>
+</li>	
+<li><h2><img src="imgs/MONITOR.jpg"width="80%"><br />Monitor-		கணினித் திரையகம்</h2>
+</li>	
+<li><h2><img src="imgs/modem (1).jpg"width="80%"><br />Modem-		இணைக்கி</h2>
+</li>	
+<li><h2><img src="imgs/mouse.jpg"width="80%"><br />Mouse-		எலியன்</h2>
+</li>	
+<li><h2><img src="imgs/Multimedia.jpg"width="80%"><br />Multimedia-	 	பல்லூடகம்	</h2>
+</li>	
+<li><h2><img src="imgs/network interface card.jpg"width="80%"><br />Network interface card-பிணைய <br/>இடைத்தள அட்டை</h2>
+</li>	
+<li><h2><img src="imgs/news1.png"width="80%"><br />News-			செய்திகள்</h2>
+</li>	
+<li><h2><img src="imgs/non linear multimedia1.jpg"width="80%"><br />Non-Linear Multimedia-<br />நேரற்றப் பல்லூடகம்</h2>
+</li>	
+<li><h2><img src="imgs/notepad.png"width="80%"><br />Notepad-		குறிப்புத் திண்டை</h2>
+</li>	
+<li><h2><img src="imgs/NUMBER.jpg"width="80%"><br />Number-		எண்</h2>
+</li>	
+<li><h2><img src="imgs/turn off.gif"width="80%"><br />Off-			முடுக்கு நிலை</h2>
+</li>	
+<li><h2><img src="imgs/on computer.jpg"width="80%"><br />On-			முடக்க நிலை</h2>
+</li>	
+<li><h2><img src="imgs/online (1).jpg"width="80%"><br />Online-		நிகழ் நிலை</h2>
+</li>	
+<li><h2><img src="imgs/Output-Devices.jpg"width="80%"><br />Output Device-	வெளியீட்டுக் <br />கருவி</h2>
+</li>	
+<li><h2><img src="imgs/pendrive.jpg"width="80%"><br />Pendrive-		மின்விரலி</h2>
+</li>	
+<li><h2><img src="imgs/personal_computer.jpg"width="80%"><br />Personal computer-	<br />தனிநபர் கணினி</h2>
+</li>	
+<li><h2><img src="imgs/port.jpg"width="80%"><br />Port-			இணைப்பான்</h2>
+</li>	
+<li><h2><img src="imgs/power supply.jpg"width="80%"><br />Power supply-		மின் வழங்கி</h2>
+</li>	
+<li><h2><img src="imgs/printer.png"width="80%"><br />Printer-		அச்சுப் பொறி</h2>
+</li>	
+<li><h2><img src="imgs/query.gif"width="80%"><br />Query-			வினவல்</h2>
+</li>	
+<li><h2><img src="imgs/Questionnaire1.jpg"width="80%"><br />Questionnaire-		வினாநிரல்கள்</h2>
+</li>	
+<li><h2><img src="imgs/radio frequency.jpg"width="80%"><br />Radio frequency-		<br />வானொலி அலைவரிசை</h2>
+</li>	
+<li><h2><img src="imgs/radio wave.png"width="80%"><br />Radio wave-		வானலை</h2>
+</li>	
+<li><h2><img src="imgs/RAM.jpg"width="80%"><br />Ram-			அழியா நினைவகம்	</h2>
+</li>	
+<li><h2><img src="imgs/router.jpg"width="80%"><br />Router-		கம்பியில்லாத் திசைவி</h2>
+</li>	
+<li><h2><img src="imgs/ROW.gif"width="80%"><br />Row-			படுகை</h2>
+</li>	
+<li><h2><img src="imgs/scanner (2).jpg"width="80%"><br />Scanner-		மின் வருடி</h2>
+</li>	
+<li><h2><img src="imgs/server.png"width="80%"><br />Server-			சேவையகம்</h2>
+</li>	
+<li><h2><img src="imgs/SHORT MESSAGE SERVICE.jpg"width="80%"><br />Short message service-<br />குறுந்தகவல் சேவை</h2>
+</li>	
+<li><h2><img src="imgs/Smartphone (1).jpg"width="80%"><br />Smart phone-		திறன்பேசி</h2>
+</li>	
+<li><h2><img src="imgs/softwares.jpg"width="80%"><br />Software-		மென்பொருள்</h2>
+</li>	
+<li><h2><img src="imgs/SPEAKER.jpg"width="80%"><br />Speaker-		ஒலிபெருக்கி</h2>
+</li>	
+<li><h2><img src="imgs/data-storage-devices.jpg"width="80%"><br />Storage Device-	சேமிப்பகம்</h2>
+</li>	
+<li><h2><img src="imgs/storyboard.jpg"width="80%"><br />Story board-		இயக்கப் படத்<br /> தொடர் சித்திரம்</h2>
+</li>	
+<li><h2><img src="imgs/STUDENTS DATABASE.jpg"width="80%"><br />Students data base-	<br />மாணவர் தரவுத்தளம்</h2>
+</li>	
+<li><h2><img src="imgs/STUDENTS INFORMATION SYSTEM.jpg"width="80%"><br />Students information system-<br />மாணவர் தகவல் முறைமை</h2>
+</li>	
+<li><h2><img src="imgs/supercomputer.jpg"width="80%"><br />Super Computer-	மீத்திறன் கணினி</h2>
+</li>	
+<li><h2><img src="imgs/switch.jpg"width="80%"><br />Switch-		பிணைய விசை/தொடர்பி</h2>
+</li>	
+<li><h2><img src="imgs/computer symbols.jpg"width="80%"><br />Symbol-		குறியீடு/அடையாளம்</h2>
+</li>	
+<li><h2><img src="imgs/thumb_drive_amazon.jpg"width="80%"><br />Thumb Drive-		 விரலி</h2>
+</li>	
+<li><h2><img src="imgs/toolbox.jpg"width="80%"><br />Toolbox-		கருவிகள்</h2>
+</li>	
+<li><h2><img src="imgs/touch screen.jpg"width="80%"><br />Touch Screen-		தொடுதிரை</h2>
+</li>	
+<li><h2><img src="imgs/virus1.jpg"width="80%"><br />Virus-			நச்சு நிரல்</h2>
+</li>	
+<li><h2><img src="imgs/wireless network 2.jpg"width="80%"><br />Wireless network-	<br />கம்பியில்லாப் பிணையம்</h2>
+</li>	
+<li><h2><img src="imgs/wireless.jpg"width="80%"><br />Wireless-		கம்பியில்லா</h2>
+</li>	
+
+			
+
+						
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
