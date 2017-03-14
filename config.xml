@@ -47,7 +47,7 @@ SP.NAHTHAN
 <!-- Plugins -->
 
     <!-- Core plugins -->
-    <gap:plugin name="org.apache.cordova.splashscreen" />
+   
 	
 	<preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
