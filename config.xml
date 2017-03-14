@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.yahoo.nahthan_sp"
-	versionCode="3"
-	version   = "2.0.1">
+	versionCode="39"
+	version   = "2.0.2">
 <name>KANINI AGHARATHI </name>
 <description>
 KANINI AGHARATHI</description>
@@ -26,7 +26,7 @@ SP.NAHTHAN
     <preference name="permissions"  value="none"/>
 
       <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version"           value="cli-6.0.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="cli-6.5.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
@@ -48,11 +48,11 @@ SP.NAHTHAN
 
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.splashscreen" />
-	<gap:plugin name="org.apache.cordova.media" />
+	
 	<preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     <framework src="com.google.android.gms:play-services-ads:+" />
-	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+	
 
 
     <!--
