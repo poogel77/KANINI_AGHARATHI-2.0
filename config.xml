@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.yahoo.nahthan_sp"
-	versionCode="39"
-	version   = "2.0.2">
+	versionCode="40"
+	version   = "2.0.3">
 <name>KANINI AGHARATHI </name>
 <description>
 KANINI AGHARATHI</description>
